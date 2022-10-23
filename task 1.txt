@@ -1,0 +1,20 @@
+%X=15, Y=40,  Z=30.
+%Write the command expression to get the result:
+%1.The Multiplication of x and z.
+%2.The Subtract of y and x.
+%3.The value of x^2 + y/2 * 2z
+%……………………………………………
+%  X=90
+%Find (sin x) with radian and degree and then find the inverse of it .
+
+
+x = 15; y = 40; z = 30;
+mult = x * z;  
+sub = y -x ;
+ans = x^2 + y/2 +2*z;
+%///////////////
+x = 90;
+ans1 = sin ( x ); 
+ans2 = sind( x ); 
+ans3 = asin ( x );
+ans4 = asind ( x );

@@ -1,0 +1,13 @@
+%Plot the cos(2x) with X (0,10) with steps =0.1 and adding the name of x , y axes , put the tittle, change the figure properties such as color and shape
+
+
+x = [ 0 : 0.1 : 10];
+y = cos(2 * x);
+
+plot(x, y, 'g-->')
+
+xlabel('x');
+ylabel('y');
+
+title('y = cos(2x)');
+

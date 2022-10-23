@@ -1,0 +1,19 @@
+%Construct the matrix A (4,5) and then:
+%Specific element in the array
+%Specific all element in the third row
+%Change the element in the array
+%Set the dimension of matrix equal A(3,5)
+
+
+A = [ 1 2 3 4 5;
+      6 7 8 9 10;
+      11 12 13 14 15;
+      16 17 18 19 20; ];
+
+element = A( 2 , 2); 
+
+row3 = A( 3 , : );
+
+A( 3 , 2 ) = 80;
+
+A( 4 , : ) = [];
